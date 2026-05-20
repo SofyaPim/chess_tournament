@@ -187,6 +187,12 @@ button, a {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  font-size: clamp(2rem, 2vw, 3rem);
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--dark-text);
 }
 
 .alert {
