@@ -199,8 +199,8 @@ button, a {
 }
 
 .header-section .common-block {
-  background-image: -webkit-image-set(url("/images/top_bg_1x.png") 1x, url("/images/top_bg_2x.png") 2x), url("/images/pattern_1x.jpg");
-  background-image: image-set(url("/images/top_bg_1x.png") 1x, url("/images/top_bg_2x.png") 2x), url("/images/pattern_1x.jpg");
+  background-image: -webkit-image-set(url("images/top_bg_1x.png") 1x, url("images/top_bg_2x.png") 2x), url("images/pattern_1x.jpg");
+  background-image: image-set(url("images/top_bg_1x.png") 1x, url("images/top_bg_2x.png") 2x), url("images/pattern_1x.jpg");
   background-position: center bottom 2.8rem, center;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, cover;
@@ -444,7 +444,7 @@ button, a {
   display: contents;
 }
 #stages-slider2.stages-grid .stage-card {
-  background-image: url("/images/noise.jpg");
+  background-image: url("images/noise.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -614,22 +614,22 @@ button, a {
 }
 
 .member-card .avatar-1.member-avatar {
-  background-image: url("/images/member.jpg");
+  background-image: url("images/member.jpg");
 }
 .member-card .avatar-2.member-avatar {
-  background-image: url("/images/member.jpg");
+  background-image: url("images/member.jpg");
 }
 .member-card .avatar-3.member-avatar {
-  background-image: url("/images/member.jpg");
+  background-image: url("images/member.jpg");
 }
 .member-card .avatar-4.member-avatar {
-  background-image: url("/images/member.jpg");
+  background-image: url("images/member.jpg");
 }
 .member-card .avatar-5.member-avatar {
-  background-image: url("/images/member.jpg");
+  background-image: url("images/member.jpg");
 }
 .member-card .avatar-6.member-avatar {
-  background-image: url("/images/member.jpg");
+  background-image: url("images/member.jpg");
 }
 
 .footer-section .container {
@@ -819,7 +819,7 @@ button, a {
     padding-top: 0;
   }
   #stages-slider2.stages-grid .stage-slide, #stages-slider2.stages-grid > .stage-card {
-    background-image: url("/images/noise.jpg");
+    background-image: url("images/noise.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
